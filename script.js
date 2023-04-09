@@ -1,6 +1,6 @@
 /* I found this text to speech code at the following URL. 
             I wrapped into a function https://dev.to/asaoluelijah/text-to-speech-in-3-lines-of-javascript-b8h */
-
+            
             function say(myMessage){
                 var msg = new SpeechSynthesisUtterance(myMessage);
                 window.speechSynthesis.speak(msg);
